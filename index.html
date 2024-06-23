@@ -1,17 +1,17 @@
 pipeline{
          agent any 
          stages{
-                stage ("stgae-1") {
+                stage ("seq-1") {
                        steps {
-                              echo "hello this is stage-1"   
+                              echo "this is stage-1"   
                     }    
             } 
-            stage ("stages-2") {
+            stage ("seq-2") {
                    steps {
-                          echo "hello this is stage-2"   
+                          echo "this is stage-2"   
                 }    
         }
-        stage ("stgae-3"){
+        stage ("seq-3"){
               steps{
                     echo "this is stage-3"  
             }    
